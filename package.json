@@ -1,0 +1,24 @@
+{
+  "name": "l7v-stack",
+  "version": "0.1.0",
+  "description": "Showcase: wires l7v-core + l7v-cli + l7v-config into a working system.",
+  "type": "module",
+  "main": "apps/index.js",
+  "bin": {
+    "l7v-stack": "apps/index.js"
+  },
+  "scripts": {
+    "start": "node apps/index.js",
+    "test":  "node --test"
+  },
+  "dependencies": {
+    "l7v-core":   "file:../l7v-core",
+    "l7v-cli":    "file:../l7v-cli",
+    "l7v-config": "file:../l7v-config"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["l7v", "stack", "simple", "composable"],
+  "license": "MIT"
+}
