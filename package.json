@@ -9,16 +9,30 @@
   },
   "scripts": {
     "start": "node apps/index.js",
-    "test":  "node --test"
+    "test": "node --test"
   },
   "dependencies": {
-    "l7v-core":   "file:../l7v-core",
-    "l7v-cli":    "file:../l7v-cli",
+    "l7v-core": "file:../l7v-core",
+    "l7v-cli": "file:../l7v-cli",
     "l7v-config": "file:../l7v-config"
   },
   "engines": {
     "node": ">=18"
   },
-  "keywords": ["l7v", "stack", "simple", "composable"],
-  "license": "MIT"
+  "keywords": [
+    "l7v",
+    "stack",
+    "simple",
+    "composable"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/l7v-dev/l7v-stack#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l7v-dev/l7v-stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/l7v-dev/l7v-stack/issues"
+  },
+  "author": "l7v-dev"
 }
